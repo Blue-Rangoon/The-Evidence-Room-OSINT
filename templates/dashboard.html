@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Evidence Room | Terminal Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/dashboard.css">
+    <script src="scripts/dashboard.js" defer></script>
+</head>
+<body class="h-screen overflow-hidden bg-[#0a0a0f] text-[#e5e7eb] antialiased selection:bg-[#7fff00] selection:text-black">
+    <div id="toast-container" class="fixed bottom-5 right-5 flex flex-col gap-3"></div>
+
+    <div class="h-screen flex overflow-hidden">
+        <aside id="sidebar" class="w-64 glass border-r border-white/5 flex-shrink-0 flex flex-col transition-all duration-300 fixed md:relative z-40 h-full -translate-x-full md:translate-x-0">
+            <div class="p-5 flex items-center justify-between border-b border-white/5">
+                <a href="index.html" class="flex items-center gap-2 text-[#7fff00] font-bold tracking-wider">
+                    <i class="bi bi-terminal text-xl"></i>
+                    <span class="text-white text-sm">EVIDENCE ROOM</span>
+                </a>
+                <button class="md:hidden text-[#94a3b8] hover:text-white" id="close-sidebar"><i class="bi bi-x-lg"></i></button>
+            </div>
+
+            <div class="p-4 flex-grow overflow-y-auto">
+                <div class="text-xs font-semibold text-[#94a3b8]/50 mb-3 uppercase tracking-wider">Intelligence</div>
+                <nav class="flex flex-col gap-1" id="sidebar-nav">
+                    <button class="nav-link active" data-view="dashboard"><i class="bi bi-grid-1x2"></i> Dashboard</button>
+                    <button class="nav-link" data-view="username"><i class="bi bi-person-badge"></i> Username Search</button>
+                    <button class="nav-link" data-view="email"><i class="bi bi-envelope-at"></i> Email Lookup</button>
+                    <button class="nav-link" data-view="ip"><i class="bi bi-geo-alt"></i> IP Intelligence</button>
+                    <button class="nav-link" data-view="domain"><i class="bi bi-globe2"></i> Domain Scanner</button>
+                    <button class="nav-link" data-view="breach"><i class="bi bi-shield-exclamation"></i> Breach Monitor</button>
+                    <button class="nav-link" data-view="phone"><i class="bi bi-phone"></i> Phone Intel</button>
+                    <button class="nav-link" data-view="subdomain"><i class="bi bi-diagram-3"></i> Subdomain Scan</button>
+                    <button class="nav-link" data-view="ssl"><i class="bi bi-lock"></i> SSL Analyzer</button>
+                    <button class="nav-link" data-view="mac"><i class="bi bi-upc-scan"></i> MAC Lookup</button>
+                    <button class="nav-link" data-view="url"><i class="bi bi-link-45deg"></i> URL Expander</button>
+                </nav>
+
+                <div class="text-xs font-semibold text-[#94a3b8]/50 mt-8 mb-3 uppercase tracking-wider">System</div>
+                <nav class="flex flex-col gap-1">
+                    <button class="nav-link" data-view="settings"><i class="bi bi-gear"></i> Settings</button>
+                    <a href="index.html" class="nav-link"><i class="bi bi-box-arrow-left"></i> Exit Terminal</a>
+                </nav>
+            </div>
+
+            <div class="p-4 border-t border-white/5">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-full bg-[#7fff00]/20 flex items-center justify-center text-[#7fff00] border border-[#7fff00]/30"><i class="bi bi-person"></i></div>
+                    <div><div class="text-sm font-medium text-white">Agent_01</div><div class="text-xs text-[#7fff00] flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-[#7fff00]"></span> Online</div></div>
+                </div>
+            </div>
+        </aside>
+
+        <div id="sidebar-overlay" class="fixed inset-0 bg-black/50 z-30 hidden md:hidden"></div>
+
+        <main class="flex-grow flex flex-col min-w-0 bg-[#0a0a0f] relative">
+            <header class="h-16 border-b border-white/5 flex items-center justify-between px-4 lg:px-8 bg-[#15151e]/50 backdrop-blur z-20">
+                <div class="flex items-center gap-4">
+                    <button class="md:hidden text-[#94a3b8] hover:text-white" id="open-sidebar"><i class="bi bi-list text-2xl"></i></button>
+                    <div class="hidden sm:flex items-center bg-[#1f2937]/50 border border-white/10 rounded-md px-3 py-1.5 w-64 focus-within:border-[#7fff00]/50 transition-colors">
+                        <i class="bi bi-search text-[#94a3b8] mr-2"></i>
+                        <input id="quick-search" type="text" placeholder="Quick search..." class="bg-transparent border-none outline-none text-sm text-white w-full placeholder-[#94a3b8]">
+                        <div class="text-[10px] text-[#94a3b8] border border-white/10 rounded px-1 ml-2">/</div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4 text-[#94a3b8]">
+                    <button class="hover:text-white transition relative"><i class="bi bi-bell"></i><span class="absolute -top-1 -right-1 w-2 h-2 bg-[#7fff00] rounded-full"></span></button>
+                    <button class="hover:text-white transition"><i class="bi bi-question-circle"></i></button>
+                </div>
+            </header>
+
+            <section class="flex-grow overflow-y-auto p-4 lg:p-8 relative">
+                <div class="bg-grid absolute inset-0 opacity-50 z-0 pointer-events-none"></div>
+                <div class="relative z-10 max-w-6xl mx-auto" id="view-root"></div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

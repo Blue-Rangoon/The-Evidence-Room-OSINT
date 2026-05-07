@@ -1,0 +1,23 @@
+body { font-family: 'Inter', sans-serif; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0a0a0f; }
+::-webkit-scrollbar-thumb { background: #1f2937; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #7fff00; }
+.glass { background: rgba(21,21,30,0.72); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.05); }
+.glass-panel { background: rgba(31,41,55,0.4); border: 1px solid rgba(255,255,255,0.05); border-radius: 0.75rem; }
+.bg-grid { background-size: 40px 40px; background-image: linear-gradient(to right, rgba(255,255,255,0.02) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px); }
+.nav-link { display: flex; align-items: center; gap: 0.75rem; width: 100%; padding: 0.625rem 0.75rem; border-radius: 0.375rem; color: #94a3b8; font-size: 0.875rem; text-align: left; transition: all 0.2s ease; border-left: 3px solid transparent; }
+.nav-link:hover { color: #fff; background: rgba(255,255,255,0.05); }
+.nav-link.active { color: #7fff00; background: rgba(127,255,0,0.05); border-left-color: #7fff00; }
+.nav-link.active i { color: #7fff00; }
+.fade-in { animation: fadeIn 0.35s ease-in-out both; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+.glow-box { transition: all 0.3s ease; }
+.glow-box:hover { box-shadow: 0 0 15px rgba(127,255,0,0.15); border-color: rgba(127,255,0,0.4); transform: translateY(-2px); }
+.input-glow:focus { box-shadow: 0 0 0 2px rgba(127,255,0,0.2); border-color: #7fff00; outline: none; }
+.shimmer { background: #1f2937; background-image: linear-gradient(to right, #1f2937 0%, #374151 20%, #1f2937 40%, #1f2937 100%); background-repeat: no-repeat; background-size: 800px 100%; animation: shimmer 1.5s linear infinite; }
+@keyframes shimmer { 0% { background-position: -468px 0; } 100% { background-position: 468px 0; } }
+#toast-container { z-index: 9999; }
+.result-table { width: 100%; text-align: left; font-size: 0.875rem; }
+.result-table th { color: #94a3b8; font-size: 0.75rem; text-transform: uppercase; font-weight: 500; padding: 0.75rem 1rem; background: rgba(31,41,55,0.35); }
+.result-table td { padding: 0.75rem 1rem; border-top: 1px solid rgba(255,255,255,0.05); }
