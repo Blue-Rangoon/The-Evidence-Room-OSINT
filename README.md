@@ -1,34 +1,94 @@
-# The Evidence Room - OSINT
+<div align="center">
 
-![Project Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![License](https://img.shields.io/badge/License-AGPL_v3-blue)
-![GitHub stars](https://img.shields.io/github/stars/Blue-Rangoon/The-Evidence-Room-OSINT)
-![GitHub forks](https://img.shields.io/github/forks/Blue-Rangoon/The-Evidence-Room-OSINT)
-![Contributors](https://img.shields.io/github/contributors/Blue-Rangoon/The-Evidence-Room-OSINT)
+# 🕵️ The Evidence Room OSINT
 
-**A professional open-source platform for true crime investigation and OSINT analysis.**
+**An interactive OSINT investigation dashboard focused on ethical digital investigations, evidence organization, and case analysis**
 
-The Evidence Room is an interactive web platform designed to organize, analyze, and present complex cases using Open Source Intelligence (OSINT) techniques. It serves researchers, investigators, journalists, and the public with clean, ethical, and powerful tools for exploring unsolved mysteries and cold cases.
+![Preview](preview.png)
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![OSINT](https://img.shields.io/badge/OSINT-Investigation-red?style=for-the-badge)](https://github.com/Blue-Rangoon/The-Evidence-Room-OSINT)
+[![AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue?style=for-the-badge)](LICENSE)
+[![Responsive](https://img.shields.io/badge/UI-Responsive-success?style=for-the-badge)](https://github.com/Blue-Rangoon/The-Evidence-Room-OSINT)
+
+[![Last Commit](https://img.shields.io/github/last-commit/Blue-Rangoon/The-Evidence-Room-OSINT?style=for-the-badge&color=f39c12)](https://github.com/Blue-Rangoon/The-Evidence-Room-OSINT/commits/main)
+[![Stars](https://img.shields.io/github/stars/Blue-Rangoon/The-Evidence-Room-OSINT?style=for-the-badge&color=9b59b6)](https://github.com/Blue-Rangoon/The-Evidence-Room-OSINT/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/Blue-Rangoon/The-Evidence-Room-OSINT?style=for-the-badge&color=1abc9c)](https://github.com/Blue-Rangoon/The-Evidence-Room-OSINT/graphs/contributors)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&color=success)](https://github.com/Blue-Rangoon/The-Evidence-Room-OSINT)
+
+[🌐 Repository](https://github.com/Blue-Rangoon/The-Evidence-Room-OSINT) • [🚀 Quick Start](#-quick-start) • [🗺️ Roadmap](#️-roadmap) • [🤝 Contributing](#-contributing) • [📜 License](#-license)
+
+</div>
 
 ---
 
-## ✨ Features
+## 🕵️ About The Project
 
-- Modern, responsive, and intuitive dashboard
-- Case file organization with timelines and evidence mapping
-- OSINT-focused research environment
-- Modular and maintainable codebase
-- Fully client-side (no backend required for core functionality)
+**The Evidence Room OSINT** is a modern investigative dashboard designed for organizing, exploring, and analyzing publicly available intelligence in an ethical and structured way.
 
-## 🛠️ Tech Stack
+The platform focuses on:
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+- Digital investigation workflows
+- Evidence organization
+- Timeline visualization
+- Open-source intelligence research
+- Case-based investigation systems
 
-- **Frontend**: HTML5, CSS3, Vanilla JavaScript
-- **Styling**: Custom responsive CSS
-- **Architecture**: Modular scripts with dedicated dashboard logic
+Built with a responsive and modular frontend architecture, the project aims to provide researchers, analysts, and developers with a professional environment for managing investigative data and visual evidence.
+
+The long-term vision includes advanced visualization systems, collaboration tools, and ethical AI-assisted investigative workflows.
+
+> ⚠️ This project is strictly focused on ethical OSINT practices and publicly available information.
+
+---
+
+## ⭐ Repository Visitors
+
+<div align="center">
+
+<!-- ![GitHub Views](https://komarev.com/ghpvc/?username=Blue-Rangoon&repo=The-Evidence-Room-OSINT&style=for-the-badge&color=00cf63&label=Profile+Views)
+![GitHub Clones](https://komarev.com/ghpvc/?username=Blue-Rangoon&repo=The-Evidence-Room-OSINT&style=for-the-badge&color=00cf63&label=Repo+Clones&clones=true) -->
+
+*Thanks for checking out the project. If you like it, consider giving it a ⭐*
+
+</div>
+
+---
+
+## 🚀 Features
+
+| Feature | Description |
+|---------|-------------|
+| 🗂️ **Case Dashboard** | Organized interface for managing investigation cases |
+| 🔎 **OSINT Focused** | Designed around publicly available intelligence workflows |
+| 📊 **Evidence Visualization** | Structured evidence layouts and future timeline integration |
+| ⚡ **Responsive UI** | Optimized experience across desktop and mobile devices |
+| 🧩 **Modular Architecture** | Scalable frontend structure for future expansion |
+| 🌙 **Future Dark Mode** | Planned accessibility and dark theme support |
+| 🤝 **Community Driven** | Open for contributors, researchers, and developers |
+| 🔒 **Ethical Standards** | Built around responsible investigation practices |
+
+---
+
+## 🧠 Tech Stack
+
+<div align="left">
+
+### Frontend
+| HTML5 | CSS3 | JavaScript |
+|:-----:|:----:|:----------:|
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000) |
+
+### Future Integrations
+| APIs | Data Visualization | AI Assistance |
+|:----:|:------------------:|:-------------:|
+| ![API](https://img.shields.io/badge/Public_APIs-00599C?style=flat) | ![Graphs](https://img.shields.io/badge/Visualization-Analytics-success?style=flat) | ![AI](https://img.shields.io/badge/Ethical_AI-Future-purple?style=flat) |
+
+</div>
+
+---
 
 ## 📁 Project Structure
 
@@ -50,8 +110,6 @@ The-Evidence-Room-OSINT/
 ---
 
 ## 🚀 Quick Start
-
-# 🚀 Quick Start
 
 ### Clone the repository
 
@@ -112,14 +170,14 @@ Contribution Guidelines
 Follow the existing code style
 Ensure responsiveness is maintained
 Only use publicly available and ethically sourced information
-Respect victims and their families in all case content
+Respect victims and their families in all cases
 
 Pull Requests are highly appreciated. Please provide a clear description of the changes and why they are beneficial.
 
 --- 
 
 ## 📜 License
-This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). See the [[LICENSE]] file for full details.
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0) — see the [LICENSE](LICENSE) file for details.
 
 ---
 
