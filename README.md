@@ -116,10 +116,12 @@ Respect victims and their families in all case content
 
 Pull Requests are highly appreciated. Please provide a clear description of the changes and why they are beneficial.
 
+--- 
+
 ## 📜 License
-This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
-You are free to use, modify, and distribute this software, provided that any modifications made on a publicly accessible server are also made available under the same license.
-See the LICENSE file for full details.
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). See the [[LICENSE]] file for full details.
+
+---
 
 ## ⚠️ Ethical Statement
 This platform is built with the highest respect for:
@@ -131,14 +133,12 @@ This platform is built with the highest respect for:
 >Doxxing, harassment, or misuse of private information is strictly prohibited.
 
 
-## 📬 Contact
+---
 
-Maintainer: Blue-Rangoon
-For questions, suggestions, or collaboration opportunities, feel free to open an issue or reach out via GitHub.
+<div align="center">
 
-"Every piece of evidence tells a story. We help uncover it."
+**Made with ❤️ by Saad Ali Rizvi**
 
-Made with ❤️ for truth and justice.
-text**Copy and paste the entire content above into your `README.md` file.**  
-
-Let me know if you want a version with screenshots, demo link, or any other additions!
+[![GitHub followers](https://img.shields.io/github/followers/Blue-Rangoon?style=social)](https://github.com/Blue-Rangoon)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-0A66C2?style=social&logo=linkedin)](https://linkedin.com/in/saad-ali-rizvi/)
+</div>
