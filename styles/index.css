@@ -1,4 +1,6 @@
-body { background-color: #0a0a0f; color: #e5e7eb; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+body { background-color: #0a0a0f; color: #e5e7eb; font-family: 'Inter', sans-serif; overflow-x: hidden; cursor: url('https://img.icons8.com/?size=100&id=aOEbhSg3HZvT&format=png&color=7DF20AEB') 0 0, default; }
+
+
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: #0a0a0f; }
 ::-webkit-scrollbar-thumb { background: #1f2937; border-radius: 4px; }
