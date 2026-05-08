@@ -48,8 +48,8 @@ The long-term vision includes advanced visualization systems, collaboration tool
 
 <div align="center">
 
-<!-- ![GitHub Views](https://komarev.com/ghpvc/?username=Blue-Rangoon&repo=The-Evidence-Room-OSINT&style=for-the-badge&color=00cf63&label=Profile+Views)
-![GitHub Clones](https://komarev.com/ghpvc/?username=Blue-Rangoon&repo=The-Evidence-Room-OSINT&style=for-the-badge&color=00cf63&label=Repo+Clones&clones=true) -->
+ ![GitHub Views](https://komarev.com/ghpvc/?username=Blue-Rangoon&repo=The-Evidence-Room-OSINT&style=for-the-badge&color=109ee6&label=Profile+Views)
+![GitHub Clones](https://komarev.com/ghpvc/?username=Blue-Rangoon&repo=The-Evidence-Room-OSINT&style=for-the-badge&color=109ee6&label=Repo+Clones&clones=true) 
 
 *Thanks for checking out the project. If you like it, consider giving it a ⭐*
 
@@ -132,31 +132,31 @@ Start exploring the dashboard and available cases.
 
 ### Phase 1: Foundation (Completed)
 
- Professional UI/UX design
- Responsive dashboard interface
- Modular JavaScript architecture
- AGPL v3 licensing and documentation
+ - [x] Professional UI/UX design
+ - [x] Responsive dashboard interface
+ - [x] Modular JavaScript architecture
+ - [x] AGPL v3 licensing and documentation
 
 ### Phase 2: Core Functionality (Q3 2026)
 
- Advanced case database with powerful search & filters
- Interactive timelines and evidence visualization
- OSINT tool integration (public APIs & resources)
- Data import/export capabilities
+ - [ ] Advanced case database with powerful search & filters
+ - [ ] Interactive timelines and evidence visualization
+ - [ ] OSINT tool integration (public APIs & resources)
+ - [ ] Data import/export capabilities
 
 ### Phase 3: Collaboration (Q4 2026)
 
- Community contribution system (with moderation)
- User accounts and role management
- Advanced analytics and graph visualizations
- Dark mode + enhanced accessibility
+ - [ ] Community contribution system (with moderation)
+ - [ ] User accounts and role management
+ - [ ] Advanced analytics and graph visualizations
+ - [ ] Dark mode + enhanced accessibility
 
 ### Phase 4: Future Vision (2027+)
 
- - Ethical AI assistance for pattern detection
- - Mobile application (PWA)
- - Public API for researchers
- - Integration with verified external databases
+ - [ ] Ethical AI assistance for pattern detection
+ - [ ] Mobile application (PWA)
+ - [ ] Public API for researchers
+ - [ ] Integration with verified external databases
 
 
 ## 🤝 Contributing
