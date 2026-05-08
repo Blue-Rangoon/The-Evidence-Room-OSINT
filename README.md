@@ -113,66 +113,71 @@ The-Evidence-Room-OSINT/
 
 ### Clone the repository
 
-```bash
-git clone https://github.com/Blue-Rangoon/The-Evidence-Room-OSINT.git
+
+`git clone https://github.com/Blue-Rangoon/The-Evidence-Room-OSINT.git`
+
 Navigate to the project directory
-cd The-Evidence-Room-OSINT
-Open index.html in your browser or use a local server (recommended)
+`cd The-Evidence-Room-OSINT`
+
+Open `index.html` in your browser or use a local server (recommended)
+
 # Using Python
-python -m http.server 8000
-```
+`python -m http.server 8000`
+
 
 Start exploring the dashboard and available cases.
 
 
 ## 🗺️ Roadmap
-Phase 1: Foundation (Completed)
+
+### Phase 1: Foundation (Completed)
 
  Professional UI/UX design
  Responsive dashboard interface
  Modular JavaScript architecture
  AGPL v3 licensing and documentation
 
-Phase 2: Core Functionality (Q3 2026)
+### Phase 2: Core Functionality (Q3 2026)
 
  Advanced case database with powerful search & filters
  Interactive timelines and evidence visualization
  OSINT tool integration (public APIs & resources)
  Data import/export capabilities
 
-Phase 3: Collaboration (Q4 2026)
+### Phase 3: Collaboration (Q4 2026)
 
  Community contribution system (with moderation)
  User accounts and role management
  Advanced analytics and graph visualizations
  Dark mode + enhanced accessibility
 
-Phase 4: Future Vision (2027+)
+### Phase 4: Future Vision (2027+)
 
- Ethical AI assistance for pattern detection
- Mobile application (PWA)
- Public API for researchers
- Integration with verified external databases
+ - Ethical AI assistance for pattern detection
+ - Mobile application (PWA)
+ - Public API for researchers
+ - Integration with verified external databases
 
 
 ## 🤝 Contributing
 We welcome contributions from developers, OSINT researchers, designers, and true crime analysts.
 How to Contribute
 
-Fork the repository
-Create a new branch for your feature (git checkout -b feature/amazing-feature)
-Commit your changes (git commit -m 'Add amazing feature')
-Push to the branch (git push origin feature/amazing-feature)
-Open a Pull Request
+### Fork the Repository
 
-Contribution Guidelines
+- Create a new branch for your feature (git checkout -b feature/amazing-feature)
+- Commit your changes (git commit -m 'Add amazing feature')
+- Push to the branch (git push origin feature/amazing-feature)
+- Open a Pull Request
 
-Follow the existing code style
-Ensure responsiveness is maintained
-Only use publicly available and ethically sourced information
-Respect victims and their families in all cases
+### Contribution Guidelines
 
-Pull Requests are highly appreciated. Please provide a clear description of the changes and why they are beneficial.
+- **Follow the existing code style**
+- **Ensure responsiveness is maintained**
+- **Only use publicly available and ethically sourced information**
+- **Respect victims and their families in all cases**
+
+*Pull Requests are highly appreciated. Please provide a clear description of the changes and why they are beneficial.*
 
 --- 
 
